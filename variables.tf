@@ -1,7 +1,7 @@
 variable "parameters" {
   default = {
     "dev-expense.rds.username" = "admin1"
-    # "dev-expense.rds.endpoint" = ""
+     "dev-expense.rds.endpoint" = "dev-expense-rds.cqxq6884ocuz.us-east-1.rds.amazonaws.com"
 
   }
 }
