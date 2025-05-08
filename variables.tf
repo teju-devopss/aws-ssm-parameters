@@ -18,11 +18,10 @@
 variable "parameters" {
   default = {
     "dev-expense.rds.username" = "admin1"
-    "dev-expense.rds.endpoint" = "dev-expense-rds.cqxq6884ocuz.us-east-1.rds.amazonaws.com"
+    "dev-expense.rds.endpoint" = "dev-expense-rds.cqx68840cuz.us-east-1.rds.amazonaws.com"
   }
 }
 
-## In organizations, we won't keep passwords in git. For learning purposes, we're keeping them here.
 variable "secrets" {
   default = {
     "dev-expense.rds.password" = "ExpenseApp123"
@@ -32,3 +31,4 @@ variable "secrets" {
 variable "key_id" {
   default = "arn:aws:kms:us-east-1:522814736516:key/94568fc4-e087-46db-8d88-a6e69ed61d8e"
 }
+
