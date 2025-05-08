@@ -17,8 +17,8 @@
 
 variable "parameters" {
   default = {
-    "dev-expense.rds.username" = "admin1"
-    "dev-expense.rds.endpoint" = "dev-expense-rds.cqx68840cuz.us-east-1.rds.amazonaws.com"
+    "dev.expense.rds.username" = "admin1"
+    "dev.expense.rds.endpoint" = "dev-expense-rds.cqx68840cuz.us-east-1.rds.amazonaws.com"
   }
 }
 
