@@ -24,7 +24,7 @@ variable "parameters" {
 
 variable "secrets" {
   default = {
-    "dev-expense.rds.password" = "ExpenseApp123"
+    "dev.expense.rds.password" = "ExpenseApp123"
   }
 }
 
