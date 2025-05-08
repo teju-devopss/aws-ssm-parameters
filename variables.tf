@@ -1,6 +1,8 @@
 variable "parameters" {
   default = {
     "dev-expense.rds.username" = "admin1"
+    # "dev-expense.rds.endpoint" = ""
+
   }
 }
 ## in organisations we wont keep passwords in git as in training for learning purpose we are keeping here
