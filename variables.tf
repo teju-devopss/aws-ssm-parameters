@@ -15,13 +15,22 @@
 #   default = "arn:aws:kms:us-east-1:522814736516:key/94568fc4-e087-46db-8d88-a6e69ed61d8e"
 # }
 
+# variable "parameters" {
+#   default = {
+#     "dev.expense.rds.username" = "admin1"
+#     "dev.expense.rds.endpoint" = "dev-expense-rds.cqxq6884ocuz.us-east-1.rds.amazonaws.com"
+#     "dev.expense.frontend.backend.endpoint"  = "https://backend-dev.tejudevops.online/"
+#   }
+# }
+
 variable "parameters" {
   default = {
-    "dev.expense.rds.username" = "admin1"
+    "dev.expense.rds.username" = "expense"   # ← FIXED HERE
     "dev.expense.rds.endpoint" = "dev-expense-rds.cqxq6884ocuz.us-east-1.rds.amazonaws.com"
     "dev.expense.frontend.backend.endpoint"  = "https://backend-dev.tejudevops.online/"
   }
 }
+
 
 variable "secrets" {
   default = {
