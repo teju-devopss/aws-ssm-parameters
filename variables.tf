@@ -37,7 +37,6 @@ variable "secrets" {
     "ssh.password" = "DevOps321"
     "ses.username" = "AKIAXTORPZCCIK7RSGW5"
     "ses.password" = "BDs3Uh+41aIa9W474iZmmExB9fBlIk/yZq8sv1UX2RHY"
-
   }
 }
 
