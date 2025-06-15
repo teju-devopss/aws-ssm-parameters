@@ -36,8 +36,8 @@ variable "secrets" {
     "dev.expense.rds.password" = "ExpenseApp123"
     "ssh.username" = "centos"
     "ssh.password" = "DevOps321"
-    "ses.username" = "AKIAXTORPZCCIK7RSGW5"
-    "ses.password" = "BDs3Uh+41aIa9W474iZmmExB9fBlIk/yZq8sv1UX2RHY"
+    "ses.username" = "AKIAXTORPZCCIK7RSGW5" #The Access Key ID for an IAM user with permissions to send email via SES.
+    "ses.password" = "BDs3Uh+41aIa9W474iZmmExB9fBlIk/yZq8sv1UX2RHY" #The Secret Access Key for that IAM user.
     "grafana_api_key" =  "glsa_NMbqoj8yruG3fLORELFIn3gv4mtEcbXP_548e04df"
     "dev.expense.frontend.newrelic.key" = "NRAK-L6VFVUP37CYI82XN1L6UX34UBY0"
   }
