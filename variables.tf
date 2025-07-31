@@ -33,7 +33,7 @@ variable "parameters" {
     # "prod.expense.backend.app_version"       = "1.0.1"
 
     # RoboShop Project
-    # "dev.roboshop.docdb.endpoint"         = "dev-roboshop-docdb.cluster-cbvsbeoyxek4.us-east-1.docdb.amazonaws.com"
+    "dev.roboshop.docdb.endpoint"           = "dev-roboshop-docdb-1.cqxq6884ocuz.us-east-1.docdb.amazonaws.com"
     # "dev.roboshop.catalogue.MONGO_URL"    = "mongodb://admin1:RoboShop12345@dev-roboshop-docdb.cluster-cbvsbeoyxek4.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"
     # "dev.roboshop.user.MONGO_URL"         = "mongodb://admin1:RoboShop12345@dev-roboshop-docdb.cluster-cbvsbeoyxek4.us-east-1.docdb.amazonaws.com:27017/users?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"
     # "dev.roboshop.user.REDIS_HOST"        = "dev-roboshop-elasticache.nud0cy.0001.use1.cache.amazonaws.com"
