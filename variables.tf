@@ -97,12 +97,12 @@ variable "secrets" {
     "dev.roboshop.rabbitmq.username" = "roboshop"
     "dev.roboshop.rabbitmq.password" = "roboshop123"
 
-    "prod.roboshop.rds.username"      = "admin1"
-    "prod.roboshop.rds.password"      = "RoboShop12345"
-    "prod.roboshop.docdb.username"    = "admin1"
-    "prod.roboshop.docdb.password"    = "RoboShop12345"
-    "prod.roboshop.rabbitmq.username" = "roboshop"
-    "prod.roboshop.rabbitmq.password" = "roboshop123"
+    # "prod.roboshop.rds.username"      = "admin1"
+    # "prod.roboshop.rds.password"      = "RoboShop12345"
+    # "prod.roboshop.docdb.username"    = "admin1"
+    # "prod.roboshop.docdb.password"    = "RoboShop12345"
+    # "prod.roboshop.rabbitmq.username" = "roboshop"
+    # "prod.roboshop.rabbitmq.password" = "roboshop123"
 
   }
 }
