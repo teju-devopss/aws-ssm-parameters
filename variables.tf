@@ -86,7 +86,7 @@ variable "secrets" {
     "grafana_api_key" =  "glsa_NMbqoj8yruG3fLORELFIn3gv4mtEcbXP_548e04df"
     "dev.expense.frontend.newrelic.key" = "NRAK-L6VFVUP37CYI82XN1L6UX34UBY0"
     "dev.expense.backend.newrelic.key" = "8a53f9047d104617f4a60b993d87429bFFFFNRAL"
-    "elasticsearch.password"           = "vkotHM*0BVAmxOGDiBQ8"
+    "elasticsearch.password"           = "kTowG*x29fY-kf0ozf2p"
 
 
     ## RoboShop Project
